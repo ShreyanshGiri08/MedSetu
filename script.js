@@ -32,8 +32,9 @@ form.addEventListener("submit", function (event) {
   tableBody.appendChild(newRow);
 
   // Show confirmation alert
-  alert("✅ Appointment successfully booked for " + name + "!");
+  alert("Appointment successfully booked for " + name + "!");
 
   // Clear form fields
   form.reset();
 });
+
